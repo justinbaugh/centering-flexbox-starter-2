@@ -10,10 +10,15 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
-html {
+   html {
     color: #222;
     font-size: 1em;
     line-height: 1.4;
+    height: 100%;
+}
+
+body {
+    height: 100%;
 }
 
 /*
@@ -111,6 +116,9 @@ body {
     margin: 0;
     height: 100%;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #content {
@@ -126,6 +134,8 @@ body {
     padding: 0px 30px;
     width: 300px;
     height: 300px;
+    justify-content: center;
+    align-items: center;
 }
 
 #content p span {
